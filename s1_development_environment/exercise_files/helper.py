@@ -3,6 +3,7 @@ import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
 
+import os
 
 def test_network(net, trainloader):
 
